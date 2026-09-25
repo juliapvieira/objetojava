@@ -140,17 +140,41 @@ console.log("O usuário " + conta.usuario + " possui nivel " + conta.nivel + " e
 
 //____________________________________________________________________________________________________________________________________
 
-//Exercício 10 – Escola
-//Crie um objeto escola com:
+//Exercício 10 – Cadastro de Usuário
+//Crie um objeto chamado conta para representar o cadastro de um usuário.
+
+//O objeto deve possuir as seguintes propriedades:
+//usuario
+//senha
 //nome
-//cidade
-//turno
-//Depois, exiba a mensagem:
-//A escola EEEP funciona na cidade de Fortaleza no turno da manhã.
-let escola = {
-    nome: "EEEP",
-    cidade:"Fortaleza",
-    turno: "manhã",
+//email
+//nivel
+//curso
+//turma
+//idade
+
+//Utilize os seguintes dados:
+//Usuário: eduardo
+//Senha: 1234
+//Nome: Eduardo Silva
+//E-mail: eduardo@email.com
+//Nível: administrador
+//Curso: Desenvolvimento de Sistemas
+//Turma: DS 2
+//Idade: 18
+
+let cadastro = {
+    usuario:"Eduardo",
+    senha:"1234",
+    nome: "Eduardo Silva",
+    email: "eduardo@gmail.com",
+    nivel:"administrador",
+    curso:"Desenvolvimento de Sistemas",
+    turma:"DS 2",
+    idade:"18",
 
 };
-console.log("A escola " + escola.nome + " funciona na cidade de " + escola.cidade + " no turno da " + escola.turno)
+
+console.log("O usuário " + cadastro.usuario + " de " + cadastro.idade + " anos, está matriculado no curso de " + cadastro.curso + ", na turma " + cadastro.turma + ". Seu nível de acesso é " + cadastro.nivel + " e seu email é " + cadastro.email + ". A senha cadastrada é " + cadastro.senha )
+
+//O usuário eduardo, de 18 anos, está matriculado no curso de Desenvolvimento de Sistemas, turma DS 2. Seu nível de acesso é administrador e seu e-mail é eduardo@email.com. A senha cadastrada é 1234.
