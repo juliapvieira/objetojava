@@ -130,6 +130,15 @@ console.log("O jogo " + jogo.nome + " roda na plataforma " + jogo.plataforma + "
 //nivel
 //Depois, exiba a mensagem:
 //O usuário eduardo possui nível administrador e utiliza a senha 1234, muito fraca por sinal.
+let conta = {
+    usuario: "Eduardo",
+    senha: "1234",
+    nivel: "administrador",
+};
+
+console.log("O usuário " + conta.usuario + " possui nivel " + conta.nivel + " e utiliza a senha " + conta.senha + " que é muito fraca por sinal.")
+
+//____________________________________________________________________________________________________________________________________
 
 //Exercício 10 – Escola
 //Crie um objeto escola com:
@@ -138,3 +147,10 @@ console.log("O jogo " + jogo.nome + " roda na plataforma " + jogo.plataforma + "
 //turno
 //Depois, exiba a mensagem:
 //A escola EEEP funciona na cidade de Fortaleza no turno da manhã.
+let escola = {
+    nome: "EEEP",
+    cidade:"Fortaleza",
+    turno: "manhã",
+
+};
+console.log("A escola " + escola.nome + " funciona na cidade de " + escola.cidade + " no turno da " + escola.turno)
